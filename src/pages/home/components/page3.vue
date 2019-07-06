@@ -1,12 +1,14 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+    这是第3个页面
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  data () {
+    return {}
+  }
 }
 </script>
 
