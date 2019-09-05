@@ -1,9 +1,13 @@
 <template>
-	<div></div>
+  <div>hello world</div>
 </template>
 
 <script>
+export default {
+  name: 'Main'
+}
 </script>
 
 <style>
+
 </style>

@@ -6,10 +6,6 @@ body {
   font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
 }
 
-label {
-  font-weight: 700;
-}
-
 html {
   height: 100%;
   box-sizing: border-box;
@@ -25,6 +21,7 @@ html {
 *:after {
   box-sizing: inherit;
   margin: 0;
+  padding: 0;
 }
 
 a,
@@ -90,4 +87,21 @@ a:hover {
     overflow: hidden;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+
+.el-table__header-wrapper{
+  border-top: 1px solid #EBEEF5;
+}
+.el-form-item__content,
+.el-date-editor.el-input, 
+.el-date-editor.el-input__inner {
+  width: 217px;
+}
+.el-form-item{
+  margin-bottom: 10px;
 }
